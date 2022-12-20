@@ -1,0 +1,76 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "roboto", sans-serif;
+}
+
+.header-section {
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	background-image: url("./pexels-photo-1563356.jpeg");
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.logo {
+	font-size: 80px;
+	font-weight: 400;
+	color: white;
+	text-transform: capitalize;
+}
+.sub-heading {
+	color: aliceblue;
+	padding: 20px 0;
+	font-size: 20px;
+	text-transform: capitalize;
+	position: relative;
+	font-weight: 300;
+}
+hr {
+	color: aliceblue;
+	height: 2px;
+	background-color: aliceblue;
+}
+.search-box {
+	display: block;
+	margin: 30px auto;
+	width: 100%;
+	height: 40px;
+	border-radius: 10px;
+	padding: 10px;
+	border: none;
+	outline: none;
+	text-transform: capitalize;
+}
+.search-btn {
+	padding: 10px 30px;
+	border-radius: 10px;
+	border: none;
+	outline: none;
+	text-transform: capitalize;
+	cursor: pointer;
+	background-color: beige;
+	color: blue;
+}
+
+/* gallery */
+.gallery{
+    width: 100% ;
+    padding: 5px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px auto;
+    justify-content: center;
+}
+.gallery-img{
+    width: 30%;
+    height: 30vh;
+    object-fit:cover;
+    margin: 5px;
+    border-radius: 5px;
+}
